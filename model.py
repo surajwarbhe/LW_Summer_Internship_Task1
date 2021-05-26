@@ -8,4 +8,4 @@ y = db.['Salary']
 from sklearn.linear_model import LinearRegression
 model = LinearRegression()
 moodel.fit(x,y)
-joblib.dump(model,'marks.pk1')
+joblib.dump(model,'salary.pk1')
