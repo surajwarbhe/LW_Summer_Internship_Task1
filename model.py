@@ -7,5 +7,5 @@ y = db['Salary']
 
 from sklearn.linear_model import LinearRegression
 model = LinearRegression()
-moodel.fit(x,y)
+model.fit(x,y)
 joblib.dump(model,'salary.pk1')
